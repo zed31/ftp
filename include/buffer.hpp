@@ -6,9 +6,10 @@
 
 class buffer {
     public:
+        buffer();
         void addStr(const std::string& line);
     private:
-        std::vector<std::string> content_;
+        std::vector<std::string> command_;
 };
 
 #endif

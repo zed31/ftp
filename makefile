@@ -5,7 +5,7 @@ SRC = src/main.cpp \
 
 OBJ = $(SRC:.cpp=.o)
 
-CFLAGS += -W -Wall -Wextra -I./include
+CXXFLAGS += -W -Wall -Wextra -I./include -std=c++1y
 
 $(NAME): $(OBJ)
 		g++ -o $(NAME) $(OBJ)

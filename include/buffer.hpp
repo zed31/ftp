@@ -4,9 +4,9 @@
 #include <string>
 #include <vector>
 
-class buffer {
+class Commands {
     public:
-        buffer();
+        Commands();
         int addStr(const std::string& line);
     private:
         void workWithCommand(const std::string& line); 

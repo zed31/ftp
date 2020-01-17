@@ -1,6 +1,6 @@
 #include <iostream>
 #include <algorithm>
-#include "../include/buffer.hpp"
+#include "../include/Commands.hpp"
 
 Commands::Commands() 
     : command_{ "ABOR", "ACCT", "ADAT", "ALLO", "APPE", "AUTH", "AVBL", "CCC", "CSID", "CDUP", "CONF", "CSID", "CWD", "DEL", "DSID", "DSIZ", "ENC", "EPRT", 

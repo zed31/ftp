@@ -1,7 +1,8 @@
 NAME = ftp
 
 SRC = src/main.cpp \
-	  src/buffer.cpp
+	  src/Commands.cpp \
+	  src/Operation.cpp
 
 OBJ = $(SRC:.cpp=.o)
 

@@ -3,6 +3,7 @@
 
 #include <string>
 #include <vector>
+#include "Operation.hpp"
 
 class Commands {
     public:
@@ -12,6 +13,7 @@ class Commands {
         void workWithCommand(const std::string& line); 
     private:
         std::vector<std::string> command_;
+        Operation operand_;
 };
 
 #endif
